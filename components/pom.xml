@@ -22,7 +22,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jaggeryjs</groupId>
     <artifactId>components</artifactId>
-    <version>0.9.0-SNAPSHOT</version>
+    <version>0.9.0-07262013</version>
     <packaging>pom</packaging>
     <name>Jaggery components parent</name>
     <url>http://jaggeryjs.org</url>
@@ -72,12 +72,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <!-- jaggery versions -->
-        <jaggery.component.version>0.9.0-SNAPSHOT</jaggery.component.version>
-        <jaggery.feature.version>0.9.0-SNAPSHOT</jaggery.feature.version>
+        <jaggery.component.version>0.9.0-07262013</jaggery.component.version>
+        <jaggery.feature.version>0.9.0-07262013</jaggery.feature.version>
 
         <!-- carbon versions -->
-        <carbon.kernal.version>4.1.0</carbon.kernal.version>
-        <carbon.platform.version>4.1.0</carbon.platform.version>
+        <carbon.kernal.version>4.2.0-SNAPSHOT</carbon.kernal.version>
+        <carbon.platform.version>4.2.0-SNAPSHOT</carbon.platform.version>
+		<patch.version.410>4.2.0-SNAPSHOT</patch.version.410>
 
         <!-- patch versions -->
         <patch.version.401>4.0.1</patch.version.401>
@@ -93,10 +94,10 @@
         <rhino.osgi.version>1.7.0.R4.wso2v1-SNAPSHOT</rhino.osgi.version>
         <commons-httpclient.osgi.version>3.1.0.wso2v2</commons-httpclient.osgi.version>
         <wss4j.osgi.version>1.5.11.wso2v3</wss4j.osgi.version>
-        <axis2.osgi.version>1.6.1.wso2v5</axis2.osgi.version>
+        <axis2.osgi.version>1.6.1.wso2v10</axis2.osgi.version>
         <abdera.osgi.version>1.0.0.wso2v3</abdera.osgi.version>
         <axiom.osgi.version>1.2.11.wso2v2</axiom.osgi.version>
-        <tomcat.osgi.version>7.0.28.wso2v1</tomcat.osgi.version>
+        <tomcat.osgi.version>7.0.34.wso2v1</tomcat.osgi.version>
         <h2-engine.osgi.version>1.2.140.wso2v3</h2-engine.osgi.version>
         <wsdl4j.osgi.version>1.6.2.wso2v3</wsdl4j.osgi.version>
         <axis2-json.osgi.version>1.6.1.wso2v5</axis2-json.osgi.version>
